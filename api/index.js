@@ -1,5 +1,3 @@
-import server from '../server.js';
+import handler from '../server.js';
 
-export default function handler(req, res) {
-  server.emit('request', req, res);
-}
+export default handler;

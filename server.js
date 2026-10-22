@@ -58,8 +58,12 @@ try {
 // Ensure storage directories
 const EXPORTS_DIR = path.join(__dirname, 'storage_exports');
 const AVATARS_DIR = path.join(__dirname, 'storage_exports', 'avatars');
-if (!fs.existsSync(EXPORTS_DIR)) fs.mkdirSync(EXPORTS_DIR, { recursive: true });
-if (!fs.existsSync(AVATARS_DIR)) fs.mkdirSync(AVATARS_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(EXPORTS_DIR)) fs.mkdirSync(EXPORTS_DIR, { recursive: true });
+  if (!fs.existsSync(AVATARS_DIR)) fs.mkdirSync(AVATARS_DIR, { recursive: true });
+} catch (e) {
+  // Read-only filesystem in serverless environments like Vercel
+}
 
 process.on('uncaughtException', (err) => {
   console.error('[TataDana Server Uncaught Exception]:', err);
@@ -162,8 +166,8 @@ function redirect(res, url) {
   res.end();
 }
 
-// Create HTTP Server
-const server = http.createServer(async (req, res) => {
+// Request handler function
+export async function handleRequest(req, res) {
   const parsedUrl = new URL(req.url, `http://${req.headers.host || 'localhost:3000'}`);
   const pathname = parsedUrl.pathname;
   const method = req.method;
@@ -1497,7 +1501,10 @@ const server = http.createServer(async (req, res) => {
     console.error('Server error:', err);
     sendJson(res, 500, { error: 'Internal Server Error', message: err.message });
   }
-});
+}
+
+// Create HTTP Server
+const server = http.createServer(handleRequest);
 
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
@@ -1549,4 +1556,7 @@ if (!process.env.VERCEL) {
   });
 }
 
-export default server;
+export default async function handler(req, res) {
+  return handleRequest(req, res);
+}
+export { server };
