@@ -168,8 +168,23 @@ function redirect(res, url) {
 
 // Request handler function
 export async function handleRequest(req, res) {
-  const parsedUrl = new URL(req.url, `http://${req.headers.host || 'localhost:3000'}`);
-  const pathname = parsedUrl.pathname;
+  let reqUrl = req.url || '/';
+  if (req.headers && req.headers['x-matched-path']) {
+    const query = reqUrl.includes('?') ? reqUrl.slice(reqUrl.indexOf('?')) : '';
+    reqUrl = req.headers['x-matched-path'] + query;
+  } else if (req.headers && req.headers['x-forwarded-uri']) {
+    reqUrl = req.headers['x-forwarded-uri'];
+  }
+  const parsedUrl = new URL(reqUrl, `http://${req.headers?.host || 'localhost:3000'}`);
+
+  // Support Vercel rewrite path normalization
+  const queryPath = parsedUrl.searchParams.get('_path');
+  let pathname = parsedUrl.pathname;
+  if (queryPath) {
+    pathname = queryPath.startsWith('/') ? queryPath : '/' + queryPath;
+  } else if (pathname === '/api/index.js' || pathname === '/api') {
+    pathname = '/';
+  }
   const method = req.method;
 
   try {
