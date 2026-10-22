@@ -1,0 +1,1653 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Laporan Keuangan TataDana</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #0f172a; margin: 0; padding: 30px; background: #ffffff; }
+    @media print { body { padding: 0; } .no-print { display: none !important; } }
+    .header { border-bottom: 2px solid #800020; padding-bottom: 20px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-start; }
+    .logo { font-size: 26px; font-weight: 800; color: #800020; letter-spacing: -0.5px; }
+    .tagline { font-size: 13px; color: #64748b; margin-top: 2px; }
+    .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+    .summary-card { background: #fdf2f4; border: 1px solid #f9d2d9; border-radius: 12px; padding: 16px; }
+    .summary-title { font-size: 12px; color: #67001a; text-transform: uppercase; font-weight: 600; margin-bottom: 6px; }
+    .summary-value { font-size: 20px; font-weight: 800; }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th { background: #f8fafc; padding: 10px 8px; font-size: 11px; text-transform: uppercase; color: #475569; font-weight: 700; border-bottom: 2px solid #cbd5e1; }
+    .btn-print { background: #800020; color: #ffffff; border: none; padding: 10px 20px; border-radius: 8px; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+    .btn-secondary { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; padding: 10px 16px; border-radius: 8px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  </style>
+</head>
+<body>
+  <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 12px 16px; border-radius: 12px; border: 1px solid #e2e8f0;">
+    <div>
+      <span style="font-weight: 700; color: #0f172a; font-size: 14px;">📄 Pratinjau Cetak Laporan Keuangan TataDana</span>
+      <span style="font-size: 12px; color: #64748b; margin-left: 8px;">(Total 62 transaksi)</span>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <a href="/transactions" class="btn-secondary">← Kembali ke Transaksi</a>
+      <button class="btn-print" onclick="window.print()">🖨️ Cetak / Simpan sebagai PDF</button>
+    </div>
+  </div>
+
+  <div class="header">
+    <div>
+      <div class="logo">TataDana</div>
+      <div class="tagline">Catat keuangan semudah chat — Platform Fintech Cerdas Indonesia</div>
+    </div>
+    <div style="text-align: right; font-size: 13px; color: #475569;">
+      <div><b>Laporan Keuangan & Transaksi Resmi</b></div>
+      <div>Periode: <b>2026-09-15 s/d 2026-10-15</b></div>
+      <div>Nama Pengguna: <b>Budi Santoso</b></div>
+      <div>Tanggal Cetak: 15/10/2026</div>
+    </div>
+  </div>
+
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="summary-title">Total Pemasukan</div>
+      <div class="summary-value" style="color: #16a34a;">+Rp27.500.000</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-title">Total Pengeluaran</div>
+      <div class="summary-value" style="color: #dc2626;">-Rp9.436.192</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-title">Net Cashflow</div>
+      <div class="summary-value" style="color: #16a34a;">
+        +Rp18.063.808
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 30px;">#</th>
+        <th style="width: 110px;">Tanggal</th>
+        <th style="width: 90px;">Jenis</th>
+        <th style="width: 120px;">Kategori</th>
+        <th style="width: 120px;">Dompet</th>
+        <th style="width: 110px;">Sumber</th>
+        <th style="width: 120px; text-align: right;">Nominal</th>
+        <th>Catatan & Rincian Item Belanja</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">1</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>1 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-01</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">💰 Gaji & Bonus</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            💻 Web Dashboard
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #16a34a; font-size: 13px;">
+            +Rp12.500.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Gaji Bulanan PT Maju Bersama</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">2</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>8 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-08</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">💻 Project Freelance</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank Mandiri Bisnis</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            💻 Web Dashboard
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #16a34a; font-size: 13px;">
+            +Rp3.500.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">DP Project Desain Landing Page</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">3</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp45.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Makan Siang Nasi Padang Sederhana</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">4</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🚗 Transportasi</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 GoPay & OVO</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            🎙️ Telegram (Voice Note)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp28.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Gojek ke Stasiun Sudirman</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">5</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>11 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-11</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🏠 Tagihan & Utilitas</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp450.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Token Listrik PLN & Internet Indihome</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">6</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>10 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-10</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">👕 Belanja Kebutuhan</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            🧾 Telegram (Foto Struk)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp275.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Belanja Mingguan Indomaret (Struk)</div>
+            
+          <div style="font-size: 11px; color: #475569; margin-top: 4px; padding-left: 8px; border-left: 2px solid #cbd5e1;">
+            <b>Rincian Item Struk Belanja:</b><br/>
+            • Minyak Goreng 2L (1x) — Rp38.000<br/>• Beras Premium 5kg (1x) — Rp74.000<br/>• Telur Ayam 1kg (1x) — Rp29.000<br/>• Kopi & Susu UHT (2x) — Rp48.000<br/>• Deterjen & Sabun Mandi (1x) — Rp86.000
+          </div>
+        
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">7</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>9 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-09</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Dompet Tunai (Cash)</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp18.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Beli Bakso Urat Pinggir Jalan</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">8</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>7 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-07</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🎮 Hiburan & Hobi</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp150.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Nonton Bioskop XXI & Popcorn</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">9</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp15.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Bakso</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">10</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">💼 Gaji & Pendapatan</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #16a34a; font-size: 13px;">
+            +Rp5.000.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Gajian</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">11</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">👕 Belanja Kebutuhan</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            🧾 Telegram (Foto Struk)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp177.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Belanja Struk di Super Indo / Indomaret</div>
+            
+          <div style="font-size: 11px; color: #475569; margin-top: 4px; padding-left: 8px; border-left: 2px solid #cbd5e1;">
+            <b>Rincian Item Struk Belanja:</b><br/>
+            • Minyak Goreng Sania 2L (1x) — Rp37.500<br/>• Beras Ramos 5kg (1x) — Rp74.000<br/>• Telur Negeri 1kg (1x) — Rp28.500<br/>• Ultra Milk Cokelat 1L (1x) — Rp21.000<br/>• Roti Tawar Kupas (1x) — Rp16.000
+          </div>
+        
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">12</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">💼 Gaji & Pendapatan</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            🎙️ Telegram (Voice Note)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #16a34a; font-size: 13px;">
+            +Rp1.500.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Dapat bonus project lepas</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">13</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">14</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp12.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Nasi uduk</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">15</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp25.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">16</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp15.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Mie ayam</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">17</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>13 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-13</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp25.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">18</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>14 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-14</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp25.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">19</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>14 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-14</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">👕 Belanja Kebutuhan</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            🧾 Telegram (Foto Struk)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp177.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Belanja Struk di Super Indo / Indomaret</div>
+            
+          <div style="font-size: 11px; color: #475569; margin-top: 4px; padding-left: 8px; border-left: 2px solid #cbd5e1;">
+            <b>Rincian Item Struk Belanja:</b><br/>
+            • Minyak Goreng Sania 2L (1x) — Rp37.500<br/>• Beras Ramos 5kg (1x) — Rp74.000<br/>• Telur Negeri 1kg (1x) — Rp28.500<br/>• Ultra Milk Cokelat 1L (1x) — Rp21.000<br/>• Roti Tawar Kupas (1x) — Rp16.000
+          </div>
+        
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">20</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>14 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-14</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp15.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Bakso</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">21</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>14 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-14</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">💼 Gaji & Pendapatan</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #16a34a; font-size: 13px;">
+            +Rp5.000.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Gajian</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">22</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>14 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-14</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp15.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Mie ayam</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">23</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>14 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-14</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp25.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Nasi padang</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">24</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp30.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">25</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 GoPay & OVO</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Nasi padang</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">26</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🏠 Tagihan & Utilitas</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            💻 WEB BILLS
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp350.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Pembayaran Tagihan: Listrik PLN Pascabayar (No. Meter: 51234892019)</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">27</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">28</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp18.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat cokelat</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">29</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp18.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat cokelat</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">30</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank99821</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank99821</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">31</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp612.291
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">32</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank3412</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank3412</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">33</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp242.502
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">34</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank36021</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank36021</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">35</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp624.227
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">36</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank94110</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank94110</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">37</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp280.720
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">38</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank24058</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank24058</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">39</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp263.173
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">40</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank72962</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank72962</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">41</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp868.037
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">42</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank16880</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank16880</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">43</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp570.211
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">44</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank28317</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank28317</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">45</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp132.171
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">46</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank53589</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank53589</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">47</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp949.476
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">48</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank18267</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank18267</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">49</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp589.159
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">50</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank60846</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank60846</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">51</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp433.318
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">52</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank31958</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank31958</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">53</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp319.326
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">54</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank57544</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank57544</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">55</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp289.376
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">56</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank22962</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank22962</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">57</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp81.892
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">58</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank46357</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank46357</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">59</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp768.497
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">60</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Seabank40020</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp20.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Kopi  pake seabank40020</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">61</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            📱 Telegram (Teks)
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp95.816
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Donat_ 18rb</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 12px;">
+          <td style="padding: 10px 8px; color: #64748b;">62</td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <b>15 Oktober 2026</b>
+            <div style="font-size: 10px; color: #94a3b8; font-family: monospace;">2026-10-15</div>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 10px; font-weight: 700; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px; white-space: nowrap;">🏷️ Umum</td>
+          <td style="padding: 10px 8px; color: #475569; white-space: nowrap;">👛 Dompet Utama</td>
+          <td style="padding: 10px 8px; white-space: nowrap; font-size: 11px; font-weight: 600; color: #334155;">
+            💻 Web Dashboard
+          </td>
+          <td style="padding: 10px 8px; font-weight: 800; text-align: right; white-space: nowrap; color: #dc2626; font-size: 13px;">
+            -Rp28.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div style="font-weight: 600; color: #0f172a;">Beli Mie Ayam Pangsit & Es Jeruk</div>
+            
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+  <div style="margin-top: 40px; font-size: 12px; color: #94a3b8; text-align: center; border-top: 1px solid #e2e8f0; padding-top: 16px;">
+    Laporan ini dibuat otomatis secara resmi oleh sistem TataDana. 100% data tersimpan aman dan terenkripsi.
+  </div>
+</body>
+</html>
+    

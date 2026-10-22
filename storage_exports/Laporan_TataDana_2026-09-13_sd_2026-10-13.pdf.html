@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Laporan Keuangan TataDana</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #0f172a; margin: 0; padding: 30px; background: #ffffff; }
+    @media print { body { padding: 0; } .no-print { display: none; } }
+    .header { border-bottom: 2px solid #2563eb; padding-bottom: 20px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-start; }
+    .logo { font-size: 26px; font-weight: 800; color: #2563eb; letter-spacing: -0.5px; }
+    .tagline { font-size: 13px; color: #64748b; margin-top: 2px; }
+    .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+    .summary-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; }
+    .summary-title { font-size: 12px; color: #64748b; text-transform: uppercase; font-weight: 600; margin-bottom: 6px; }
+    .summary-value { font-size: 20px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th { background: #f1f5f9; padding: 10px 8px; font-size: 12px; text-transform: uppercase; color: #475569; font-weight: 700; border-bottom: 2px solid #cbd5e1; }
+    .btn-print { background: #2563eb; color: #ffffff; border: none; padding: 10px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: flex-end; gap: 10px;">
+    <button class="btn-print" onclick="window.print()">🖨️ Cetak / Simpan sebagai PDF</button>
+  </div>
+
+  <div class="header">
+    <div>
+      <div class="logo">TataDana</div>
+      <div class="tagline">Catat keuangan semudah chat — terintegrasi Telegram Bot</div>
+    </div>
+    <div style="text-align: right; font-size: 13px; color: #475569;">
+      <div><b>Laporan Keuangan Pribadi</b></div>
+      <div>Periode: 2026-09-13 s/d 2026-10-13</div>
+      <div>Nama: <b>Budi Santoso</b></div>
+      <div>Tanggal Export: 13/10/2026</div>
+    </div>
+  </div>
+
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="summary-title">Total Pemasukan</div>
+      <div class="summary-value" style="color: #16a34a;">Rp22.500.000</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-title">Total Pengeluaran</div>
+      <div class="summary-value" style="color: #dc2626;">Rp1.158.000</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-title">Net Cashflow</div>
+      <div class="summary-value" style="color: #2563eb;">
+        +Rp21.342.000
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 30px;">#</th>
+        <th style="width: 90px;">Tanggal</th>
+        <th style="width: 100px;">Jenis</th>
+        <th style="width: 140px;">Kategori</th>
+        <th style="width: 130px;">Dompet</th>
+        <th style="width: 130px; text-align: right;">Nominal</th>
+        <th>Catatan & Rincian</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">1</td>
+          <td style="padding: 10px 8px;"><b>2026-10-01</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">💰 Gaji & Bonus</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #16a34a;">
+            +Rp12.500.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Gaji Bulanan PT Maju Bersama</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">2</td>
+          <td style="padding: 10px 8px;"><b>2026-10-08</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">💻 Project Freelance</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank Mandiri Bisnis</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #16a34a;">
+            +Rp3.500.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>DP Project Desain Landing Page</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">3</td>
+          <td style="padding: 10px 8px;"><b>2026-10-13</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp45.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Makan Siang Nasi Padang Sederhana</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">4</td>
+          <td style="padding: 10px 8px;"><b>2026-10-13</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">🚗 Transportasi</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 GoPay & OVO</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp28.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Gojek ke Stasiun Sudirman</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">5</td>
+          <td style="padding: 10px 8px;"><b>2026-10-11</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">🏠 Tagihan & Utilitas</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp450.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Token Listrik PLN & Internet Indihome</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">6</td>
+          <td style="padding: 10px 8px;"><b>2026-10-10</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">👕 Belanja Kebutuhan</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp275.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Belanja Mingguan Indomaret (Struk)</div>
+            
+          <div style="font-size: 11px; color: #475569; margin-top: 4px; padding-left: 8px; border-left: 2px solid #cbd5e1;">
+            <b>Rincian Item Struk:</b><br/>
+            • Minyak Goreng 2L (1x) — Rp38.000<br/>• Beras Premium 5kg (1x) — Rp74.000<br/>• Telur Ayam 1kg (1x) — Rp29.000<br/>• Kopi & Susu UHT (2x) — Rp48.000<br/>• Deterjen & Sabun Mandi (1x) — Rp86.000
+          </div>
+        
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">7</td>
+          <td style="padding: 10px 8px;"><b>2026-10-09</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Dompet Tunai (Cash)</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp18.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Beli Bakso Urat Pinggir Jalan</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">8</td>
+          <td style="padding: 10px 8px;"><b>2026-10-07</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">🎮 Hiburan & Hobi</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp150.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Nonton Bioskop XXI & Popcorn</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">9</td>
+          <td style="padding: 10px 8px;"><b>2026-10-13</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">🍜 Makanan & Minuman</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp15.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Bakso</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">10</td>
+          <td style="padding: 10px 8px;"><b>2026-10-13</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">💼 Gaji & Pendapatan</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #16a34a;">
+            +Rp5.000.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Gajian</div>
+            
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">11</td>
+          <td style="padding: 10px 8px;"><b>2026-10-13</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #b91c1c;">
+              PENGELUARAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">👕 Belanja Kebutuhan</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #1e293b;">
+            -Rp177.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Belanja Struk di Super Indo / Indomaret</div>
+            
+          <div style="font-size: 11px; color: #475569; margin-top: 4px; padding-left: 8px; border-left: 2px solid #cbd5e1;">
+            <b>Rincian Item Struk:</b><br/>
+            • Minyak Goreng Sania 2L (1x) — Rp37.500<br/>• Beras Ramos 5kg (1x) — Rp74.000<br/>• Telur Negeri 1kg (1x) — Rp28.500<br/>• Ultra Milk Cokelat 1L (1x) — Rp21.000<br/>• Roti Tawar Kupas (1x) — Rp16.000
+          </div>
+        
+          </td>
+        </tr>
+      
+        <tr style="border-bottom: 1px solid #e2e8f0; font-size: 13px;">
+          <td style="padding: 10px 8px; color: #64748b;">12</td>
+          <td style="padding: 10px 8px;"><b>2026-10-13</b></td>
+          <td style="padding: 10px 8px;">
+            <span style="display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; background: #dcfce7; color: #15803d;">
+              PEMASUKAN
+            </span>
+          </td>
+          <td style="padding: 10px 8px;">💼 Gaji & Pendapatan</td>
+          <td style="padding: 10px 8px; color: #475569;">👛 Bank BCA Utama</td>
+          <td style="padding: 10px 8px; font-weight: 600; text-align: right; color: #16a34a;">
+            +Rp1.500.000
+          </td>
+          <td style="padding: 10px 8px;">
+            <div>Dapat bonus project lepas</div>
+            
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+  <div style="margin-top: 40px; font-size: 12px; color: #94a3b8; text-align: center; border-top: 1px solid #e2e8f0; padding-top: 16px;">
+    Laporan ini dibuat otomatis secara resmi oleh sistem TataDana. 100% data tersimpan aman dan terenkripsi.
+  </div>
+</body>
+</html>
+    

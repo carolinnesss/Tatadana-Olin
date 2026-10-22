@@ -1,0 +1,15 @@
+{
+  "name": "tatadana",
+  "version": "1.0.0",
+  "description": "TataDana - Catat keuangan semudah chat langsung dari Telegram kamu",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_suite.js && node e2e_verification_test.js && node syntax_check.js"
+  },
+  "keywords": ["fintech", "telegram-bot", "supabase", "indonesia"],
+  "author": "TataDana Team",
+  "license": "MIT"
+}

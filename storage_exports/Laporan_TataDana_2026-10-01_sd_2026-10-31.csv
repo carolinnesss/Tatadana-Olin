@@ -1,0 +1,17 @@
+﻿LAPORAN KEUANGAN PRIBADI - TATADANA
+Nama Pengguna,Budi Santoso
+Email,budi@example.com
+Periode Laporan,2026-10-01 s/d 2026-10-31
+Tanggal Cetak,15/10/2026
+
+RINGKASAN KEUANGAN
+Total Pemasukan (IDR),0
+Total Pengeluaran (IDR),140000
+Net Cashflow (IDR),-140000
+Total Transaksi,3
+
+DETAIL TRANSAKSI
+No,Tanggal (Tgl Bln Thn),Tanggal ISO,Jenis Transaksi,Kategori,Dompet,Nominal (IDR),Catatan & Item Belanja,Sumber Transaksi,Rincian Struk Multi-Item
+1,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","GoPay",35000,"Beli Bakso & Es Teh Manis","Telegram (Teks)",-
+2,"14 Oktober 2026","2026-10-14","Pengeluaran","Makanan & Minuman","Bank BCA",55000,"Makan Siang Nasi Padang Rendang","Web Dashboard","Nasi Rendang Komplit (x1): Rp45.000; Jus Alpukat (x1): Rp10.000"
+3,"13 Oktober 2026","2026-10-13","Pengeluaran","Transportasi","Bank BCA",50000,"Bensin Motor Pertamax","Simulator Bot",-

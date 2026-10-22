@@ -1,0 +1,75 @@
+﻿LAPORAN KEUANGAN PRIBADI - TATADANA
+Nama Pengguna,Budi Santoso
+Email,budi.santoso@example.com
+Periode Laporan,2026-09-15 s/d 2026-10-15
+Tanggal Cetak,15/10/2026
+
+RINGKASAN KEUANGAN
+Total Pemasukan (IDR),27500000
+Total Pengeluaran (IDR),9408192
+Net Cashflow (IDR),18091808
+Total Transaksi,61
+
+DETAIL TRANSAKSI
+No,Tanggal (Tgl Bln Thn),Tanggal ISO,Jenis Transaksi,Kategori,Dompet,Nominal (IDR),Catatan & Item Belanja,Sumber Transaksi,Rincian Struk Multi-Item
+1,"1 Oktober 2026","2026-10-01","Pemasukan","Gaji & Bonus","Bank BCA Utama",12500000,"Gaji Bulanan PT Maju Bersama","Web Dashboard",-
+2,"8 Oktober 2026","2026-10-08","Pemasukan","Project Freelance","Bank Mandiri Bisnis",3500000,"DP Project Desain Landing Page","Web Dashboard",-
+3,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",45000,"Makan Siang Nasi Padang Sederhana","Telegram (Teks)",-
+4,"13 Oktober 2026","2026-10-13","Pengeluaran","Transportasi","GoPay & OVO",28000,"Gojek ke Stasiun Sudirman","Telegram (Voice Note)",-
+5,"11 Oktober 2026","2026-10-11","Pengeluaran","Tagihan & Utilitas","Bank BCA Utama",450000,"Token Listrik PLN & Internet Indihome","Telegram (Teks)",-
+6,"10 Oktober 2026","2026-10-10","Pengeluaran","Belanja Kebutuhan","Bank BCA Utama",275000,"Belanja Mingguan Indomaret (Struk)","Telegram (Foto Struk)","Minyak Goreng 2L (x1): Rp38.000; Beras Premium 5kg (x1): Rp74.000; Telur Ayam 1kg (x1): Rp29.000; Kopi & Susu UHT (x2): Rp48.000; Deterjen & Sabun Mandi (x1): Rp86.000"
+7,"9 Oktober 2026","2026-10-09","Pengeluaran","Makanan & Minuman","Dompet Tunai (Cash)",18000,"Beli Bakso Urat Pinggir Jalan","Telegram (Teks)",-
+8,"7 Oktober 2026","2026-10-07","Pengeluaran","Hiburan & Hobi","Bank BCA Utama",150000,"Nonton Bioskop XXI & Popcorn","Telegram (Teks)",-
+9,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",15000,"Bakso","Telegram (Teks)",-
+10,"13 Oktober 2026","2026-10-13","Pemasukan","Gaji & Pendapatan","Bank BCA Utama",5000000,"Gajian","Telegram (Teks)",-
+11,"13 Oktober 2026","2026-10-13","Pengeluaran","Belanja Kebutuhan","Bank BCA Utama",177000,"Belanja Struk di Super Indo / Indomaret","Telegram (Foto Struk)","Minyak Goreng Sania 2L (x1): Rp37.500; Beras Ramos 5kg (x1): Rp74.000; Telur Negeri 1kg (x1): Rp28.500; Ultra Milk Cokelat 1L (x1): Rp21.000; Roti Tawar Kupas (x1): Rp16.000"
+12,"13 Oktober 2026","2026-10-13","Pemasukan","Gaji & Pendapatan","Bank BCA Utama",1500000,"Dapat bonus project lepas","Telegram (Voice Note)",-
+13,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",20000,"Kopi","Telegram (Teks)",-
+14,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",12000,"Nasi uduk","Telegram (Teks)",-
+15,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",25000,"Kopi","Telegram (Teks)",-
+16,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",15000,"Mie ayam","Telegram (Teks)",-
+17,"13 Oktober 2026","2026-10-13","Pengeluaran","Makanan & Minuman","Bank BCA Utama",25000,"Kopi","Telegram (Teks)",-
+18,"14 Oktober 2026","2026-10-14","Pengeluaran","Makanan & Minuman","Bank BCA Utama",25000,"Kopi","Telegram (Teks)",-
+19,"14 Oktober 2026","2026-10-14","Pengeluaran","Belanja Kebutuhan","Bank BCA Utama",177000,"Belanja Struk di Super Indo / Indomaret","Telegram (Foto Struk)","Minyak Goreng Sania 2L (x1): Rp37.500; Beras Ramos 5kg (x1): Rp74.000; Telur Negeri 1kg (x1): Rp28.500; Ultra Milk Cokelat 1L (x1): Rp21.000; Roti Tawar Kupas (x1): Rp16.000"
+20,"14 Oktober 2026","2026-10-14","Pengeluaran","Makanan & Minuman","Bank BCA Utama",15000,"Bakso","Telegram (Teks)",-
+21,"14 Oktober 2026","2026-10-14","Pemasukan","Gaji & Pendapatan","Bank BCA Utama",5000000,"Gajian","Telegram (Teks)",-
+22,"14 Oktober 2026","2026-10-14","Pengeluaran","Makanan & Minuman","Bank BCA Utama",15000,"Mie ayam","Telegram (Teks)",-
+23,"14 Oktober 2026","2026-10-14","Pengeluaran","Makanan & Minuman","Bank BCA Utama",25000,"Nasi padang","Telegram (Teks)",-
+24,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",30000,"Kopi","Telegram (Teks)",-
+25,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","GoPay & OVO",20000,"Nasi padang","Telegram (Teks)",-
+26,"15 Oktober 2026","2026-10-15","Pengeluaran","Tagihan & Utilitas","Bank BCA Utama",350000,"Pembayaran Tagihan: Listrik PLN Pascabayar (No. Meter: 51234892019)","WEB BILLS",-
+27,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank",20000,"Kopi  pake seabank","Telegram (Teks)",-
+28,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",18000,"Donat cokelat","Telegram (Teks)",-
+29,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",18000,"Donat cokelat","Telegram (Teks)",-
+30,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank99821",20000,"Kopi  pake seabank99821","Telegram (Teks)",-
+31,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",612291,"Donat_ 18rb","Telegram (Teks)",-
+32,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank3412",20000,"Kopi  pake seabank3412","Telegram (Teks)",-
+33,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",242502,"Donat_ 18rb","Telegram (Teks)",-
+34,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank36021",20000,"Kopi  pake seabank36021","Telegram (Teks)",-
+35,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",624227,"Donat_ 18rb","Telegram (Teks)",-
+36,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank94110",20000,"Kopi  pake seabank94110","Telegram (Teks)",-
+37,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",280720,"Donat_ 18rb","Telegram (Teks)",-
+38,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank24058",20000,"Kopi  pake seabank24058","Telegram (Teks)",-
+39,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",263173,"Donat_ 18rb","Telegram (Teks)",-
+40,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank72962",20000,"Kopi  pake seabank72962","Telegram (Teks)",-
+41,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",868037,"Donat_ 18rb","Telegram (Teks)",-
+42,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank16880",20000,"Kopi  pake seabank16880","Telegram (Teks)",-
+43,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",570211,"Donat_ 18rb","Telegram (Teks)",-
+44,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank28317",20000,"Kopi  pake seabank28317","Telegram (Teks)",-
+45,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",132171,"Donat_ 18rb","Telegram (Teks)",-
+46,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank53589",20000,"Kopi  pake seabank53589","Telegram (Teks)",-
+47,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",949476,"Donat_ 18rb","Telegram (Teks)",-
+48,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank18267",20000,"Kopi  pake seabank18267","Telegram (Teks)",-
+49,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",589159,"Donat_ 18rb","Telegram (Teks)",-
+50,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank60846",20000,"Kopi  pake seabank60846","Telegram (Teks)",-
+51,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",433318,"Donat_ 18rb","Telegram (Teks)",-
+52,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank31958",20000,"Kopi  pake seabank31958","Telegram (Teks)",-
+53,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",319326,"Donat_ 18rb","Telegram (Teks)",-
+54,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank57544",20000,"Kopi  pake seabank57544","Telegram (Teks)",-
+55,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",289376,"Donat_ 18rb","Telegram (Teks)",-
+56,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank22962",20000,"Kopi  pake seabank22962","Telegram (Teks)",-
+57,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",81892,"Donat_ 18rb","Telegram (Teks)",-
+58,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank46357",20000,"Kopi  pake seabank46357","Telegram (Teks)",-
+59,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",768497,"Donat_ 18rb","Telegram (Teks)",-
+60,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Seabank40020",20000,"Kopi  pake seabank40020","Telegram (Teks)",-
+61,"15 Oktober 2026","2026-10-15","Pengeluaran","Makanan & Minuman","Bank BCA Utama",95816,"Donat_ 18rb","Telegram (Teks)",-
